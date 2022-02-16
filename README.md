@@ -32,7 +32,7 @@ ode = f;
 
 
 
-Once you choosed a solving algorithm, in our example explicit Euler, you have to instatiate a solver, pass the ode as an argument to it, and you can use the member function c++ solver(vector<double>&) to get the solution
+Once you choosed a solving algorithm, in our example explicit Euler, you have to instatiate a solver, pass the ode as an argument to it, and you can use the member function  solver(vector<double>&) to get the solution
 
 
 
@@ -72,7 +72,7 @@ Compare returns the mean error of the difference of the numerical solution and t
 
 Where solution is a vector of pairs, name is a string, the name of the csv file.
 
-You can help by increasing the possible solving algorithms in the following way:
+You can expand the possible solving algorithms in the following way:
 
 
 ```c++
